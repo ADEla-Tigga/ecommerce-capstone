@@ -28,7 +28,7 @@ Raw Data → Bronze (Ingestion)
           → ML (User Conversion Prediction)
 
 
-[### Bronze Layer](D1_bronze.ipynb)
+[Bronze Layer](D1_bronze.ipynb)
 
 * Ingested raw e‑commerce event data
 
@@ -38,7 +38,7 @@ Raw Data → Bronze (Ingestion)
 
 
 
-### Silver Layer
+[Silver Layer](D2_silver.ipynb)
 
 
 * Cleaned,Handled and Removed Missing values and duplicates
@@ -66,7 +66,7 @@ Raw Data → Bronze (Ingestion)
 
 * Schema: ecommerce
 
-### Gold Layer
+[Gold Layer](D3_gold.ipynb)
 * Create business‑ready fact and dimension tables:
 
     Product Dimension
