@@ -28,8 +28,7 @@ Raw Data → Bronze (Ingestion)
           → ML (User Conversion Prediction)
 
 
-### Bronze Layer
-[Go to Bronze Pipeline](#https://github.com/ADEla-Tigga/ecommerce-capstone/blob/main/D1_bronze.ipynb)
+[### Bronze Layer](#D1_bronze.ipynb)
 
 * Ingested raw e‑commerce event data
 
@@ -40,6 +39,8 @@ Raw Data → Bronze (Ingestion)
 
 
 ### Silver Layer
+
+
 * Cleaned,Handled and Removed Missing values and duplicates
 
 * Standardized data types
