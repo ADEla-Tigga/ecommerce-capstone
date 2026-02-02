@@ -28,7 +28,7 @@ Raw Data → Bronze (Ingestion)
           → ML (User Conversion Prediction)
 
 
-[Bronze Layer](D1_bronze.ipynb)
+### [Bronze Layer](D1_bronze.ipynb)
 
 * Ingested raw e‑commerce event data
 
@@ -38,7 +38,7 @@ Raw Data → Bronze (Ingestion)
 
 
 
-[Silver Layer](D2_silver.ipynb)
+### [Silver Layer](D2_silver.ipynb)
 
 
 * Cleaned,Handled and Removed Missing values and duplicates
@@ -59,14 +59,31 @@ Raw Data → Bronze (Ingestion)
 
 * Columns were rearranged orderly
 
+
+### [Transformations](D2_transformations.ipynb)
+
+Transformations were carried out using complex PySpark/SQL Logic with business ready rules
+
+* Handled Null Values
+
+* Grouped by Category to view sum of price
+
+* Filtered to view price greater than 100000
+
+* Grouped the data by product name
+
+* Found cheapest products
+
+
 ### Setup & Project Structure
+
 * Catalog & Schema
 
 * Catalog: main (or Unity Catalog-enabled catalog)
 
 * Schema: ecommerce
 
-[Gold Layer](D3_gold.ipynb)
+### [Gold Layer](D3_gold.ipynb)
 * Create business‑ready fact and dimension tables:
 
     Product Dimension
@@ -94,7 +111,8 @@ Raw Data → Bronze (Ingestion)
 
 * Pipeline was scheduled
 
-### ACID_Transactions_Demo
+### [ACID_Transactions_Demo](D4_ACID.ipynb)
+
 * Update
 
 * Delete
@@ -102,14 +120,16 @@ Raw Data → Bronze (Ingestion)
 * Merge(Upsert)
 
 
-### Governance_UnityCatalog
+### [Governance_UnityCatalog](D5_governance.ipynb)
+
 * Constraint and Validation
 
 * Deduplication
 
 * Access Control
 
-### SQL queries
+### [SQL queries](D6_SQL_queries.ipynb)
+
 * Top Category by engagement
 
 * Daily trends of user activity
@@ -121,7 +141,8 @@ Raw Data → Bronze (Ingestion)
 * Brand performance
 
 
-### Analytics_SQL_Insights
+### [Analytics_SQL_Insights](D7_SQL_Analysis.ipynb)
+
 * Total number of Users who viewed, carted and purchased
 
 * Conversion Rate
@@ -136,14 +157,14 @@ Raw Data → Bronze (Ingestion)
 
 
 
-### ML_Training_MLflow
+### [ML_Training_MLflow](D8_ML.ipynb)
 * Built a  User level feature table in Pyspark
 
 * Prepared Data for Modelling
 
 * Run ML flow training
 
-### Visualization
+### [Visualization](https://dbc-07fab739-82fb.cloud.databricks.com/dashboardsv3/01f0ff27a54e1250981dd4ca18d5ae8e/published?o=7474654074614371)
 * Created Dashboard in Databricks
 
 # INSIGHT
