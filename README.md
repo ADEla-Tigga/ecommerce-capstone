@@ -29,6 +29,8 @@ Raw Data → Bronze (Ingestion)
 
 
 ### Bronze Layer
+[Go to Bronze Pipeline](#D1_bronze)
+
 * Ingested raw e‑commerce event data
 
 * Stored as Delta tables
