@@ -105,7 +105,7 @@ Transformations were carried out using complex PySpark/SQL Logic with business r
 
     Kpi category daily
 
-### Orchestration Job Setup
+### [Orchestration Job Setup](pipeline_bronze_silver_gold.ipynb)
 
 * Bronze_Ingestion-> Silver_Transformations->Gold_Tables
 
