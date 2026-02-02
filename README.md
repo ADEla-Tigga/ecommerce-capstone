@@ -29,7 +29,7 @@ Raw Data → Bronze (Ingestion)
 
 
 ### Bronze Layer
-[Go to Bronze Pipeline](#D1_bronze)
+[Go to Bronze Pipeline](#https://github.com/ADEla-Tigga/ecommerce-capstone/blob/main/D1_bronze.ipynb)
 
 * Ingested raw e‑commerce event data
 
