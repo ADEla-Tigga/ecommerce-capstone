@@ -28,7 +28,7 @@ Raw Data → Bronze (Ingestion)
           → ML (User Conversion Prediction)
 
 
-[### Bronze Layer](#notebooks/D1_bronze.ipynb)
+[### Bronze Layer](D1_bronze.ipynb)
 
 * Ingested raw e‑commerce event data
 
